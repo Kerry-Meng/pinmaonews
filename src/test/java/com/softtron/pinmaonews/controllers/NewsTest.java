@@ -1,0 +1,21 @@
+package com.softtron.pinmaonews.controllers;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.test.context.junit4.SpringRunner;
+
+@RunWith(SpringRunner.class)
+@SpringBootTest(classes = RunWith.class)
+@EnableAutoConfiguration
+public class NewsTest {
+	
+	@Test
+	public void test() {
+		
+	}
+	
+}
